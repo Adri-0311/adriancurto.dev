@@ -1,0 +1,186 @@
+{
+  "githubUrl": "https://github.com/Adri-0311",
+  "linkedinUrl": "https://www.linkedin.com/in/adriancurto/",
+  "lumeLand": "https://lume.land/",
+  "denoDeploy": "https://deno.com/deploy",
+  "proyectCode": "https://github.com/Adri-0311",
+  "system76": "https://pop.system76.com/",
+  "menu": [
+    { "text": "Mi setup", "path": "/setup" },
+    { "text": "Contacto", "path": "mailto:acs_0311@hotmail.com" }
+  ],
+  "extensionesGnome": [
+    {
+      "text": "Caffeine",
+      "path": "https://extensions.gnome.org/extension/517/caffeine/"
+    },
+    {
+      "text": "Gradient Top Bar",
+      "path": "https://extensions.gnome.org/extension/4955/gradient-top-bar/"
+    },
+    {
+      "text": "Pano - Clipboard Manager",
+      "path": "https://extensions.gnome.org/extension/5278/pano/"
+    },
+    {
+      "text": "Vitals",
+      "path": "https://extensions.gnome.org/extension/1460/vitals/"
+    },
+    {
+      "text": "Wallpaper Switcher",
+      "path": "https://extensions.gnome.org/extension/4812/wallpaper-switcher/"
+    },
+    {
+      "text": "Gradient",
+      "path": "https://extensions.gnome.org/extension/4955/gradient-top-bar/"
+    }
+  ],
+  "software": {
+    "vscodium": {
+      "text": "VSCodium",
+      "path": "https://vscodium.com/"
+    },
+    "flatpak": { "text": "Flatpak", "path": "https://flatpak.org/" },
+    "insomnia": { "text": "Insomnia", "path": "https://insomnia.rest/" }
+  },
+  "extensionesVscodium": [
+    {
+      "text": "ESLint",
+      "path": "https://open-vsx.org/extension/dbaeumer/vscode-eslint"
+    },
+    {
+      "text": "Git Graph",
+      "path": "https://open-vsx.org/extension/mhutchie/git-graph"
+    },
+    {
+      "text": "Jetbrains Dark Theme",
+      "path": "https://open-vsx.org/extension/MoBalic/jetbrains-dark-theme"
+    },
+    {
+      "text": "Prettier - Code formatter",
+      "path": "https://open-vsx.org/extension/esbenp/prettier-vscode"
+    },
+    {
+      "text": "shell-format",
+      "path": "https://open-vsx.org/extension/foxundermoon/shell-format"
+    },
+    {
+      "text": "Tailwind CSS IntelliSense",
+      "path": "https://open-vsx.org/extension/bradlc/vscode-tailwindcss"
+    }
+  ],
+  "cosmic": "https://blog.system76.com/post/a-cosmic-thanksgiving-2023",
+  "devTech": {
+    "react": {
+      "path": "https://es.react.dev/",
+      "icon": "https://cdn.simpleicons.org/react"
+    },
+    "node": {
+      "path": "https://nodejs.org/en",
+      "icon": "https://cdn.simpleicons.org/nodedotjs"
+    },
+    "deno": {
+      "path": "https://deno.com/",
+      "icon": "https://cdn.simpleicons.org/deno"
+    },
+    "npm": {
+      "path": "https://www.npmjs.com/",
+      "icon": "https://cdn.simpleicons.org/npm"
+    },
+    "pnpm": {
+      "path": "https://pnpm.io/",
+      "icon": "https://cdn.simpleicons.org/pnpm"
+    },
+    "css": {
+      "path": "",
+      "icon": "https://cdn.simpleicons.org/css3"
+    },
+    "bootstrap": {
+      "path": "",
+      "icon": "https://cdn.simpleicons.org/bootstrap"
+    },
+    "html": {
+      "path": "",
+      "icon": "https://cdn.simpleicons.org/html5"
+    },
+    "tailwindcss": {
+      "path": "https://tailwindcss.com/",
+      "icon": "https://cdn.simpleicons.org/tailwindcss"
+    },
+    "javascript": {
+      "path": "",
+      "icon": "https://cdn.simpleicons.org/javascript"
+    },
+    "jquery": {
+      "path": "",
+      "icon": "https://cdn.simpleicons.org/jquery"
+    },
+    "typescript": {
+      "path": "https://www.typescriptlang.org/",
+      "icon": "https://cdn.simpleicons.org/typescript"
+    },
+    "git": {
+      "path": "https://www.typescriptlang.org/",
+      "icon": "https://cdn.simpleicons.org/git"
+    },
+    "github": {
+      "path": "https://www.typescriptlang.org/",
+      "icon": "https://cdn.simpleicons.org/github"
+    },
+    "gitlab": {
+      "path": "https://www.typescriptlang.org/",
+      "icon": "https://cdn.simpleicons.org/gitlab"
+    },
+    "jira": {
+      "path": "https://www.typescriptlang.org/",
+      "icon": "https://cdn.simpleicons.org/jira"
+    },
+    "jenkins": {
+      "path": "https://www.typescriptlang.org/",
+      "icon": "https://cdn.simpleicons.org/jenkins"
+    },
+    "sonarqube": {
+      "path": "https://www.typescriptlang.org/",
+      "icon": "https://cdn.simpleicons.org/sonarqube"
+    },
+    "oraclesql": {
+      "path": "https://www.typescriptlang.org/",
+      "icon": "https://cdn.simpleicons.org/oracle"
+    },
+    "java": {
+      "path": "https://www.typescriptlang.org/",
+      "icon": "https://cdn.simpleicons.org/openjdk"
+    },
+    "express": {
+      "path": "https://www.expressjs.com/",
+      "icon": "https://cdn.simpleicons.org/express"
+    },
+    "mongodb": {
+      "path": "https://www.mongodb.com/",
+      "icon": "https://cdn.simpleicons.org/mongodb"
+    }
+  },
+  "jobs": [
+    {
+      "company": "Everis / NTT Data",
+      "position": "Full-stack",
+      "date": "2020 - 2022",
+      "content": "Mantenimiento y desarrollo de nuevas páginas, así como funcionalidades de la web comercial de <a href='https://www.iberdrola.es/' target='_blank' rel='acceso a iberdrola'>Iberdrola</a> y sus variantes en otros estados de la Unión Europea. Haciendo uso de metodología agil Kanban.",
+      "tech": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Jquery",
+        "Bootstrap",
+        "Java",
+        "OracleSQL",
+        "Git",
+        "GitHub",
+        "GitLab",
+        "Jenkins",
+        "SonarQube",
+        "Jira"
+      ]
+    }
+  ]
+}
