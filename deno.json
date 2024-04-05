@@ -30,5 +30,19 @@
         "no-unused-vars"
       ]
     }
+  },
+  "fmt": {
+    "useTabs": true,
+    "lineWidth": 80,
+    "indentWidth": 4,
+    "semiColons": true,
+    "singleQuote": true,
+    "include": [
+      "src/"
+    ],
+    "exclude": [
+      "src/testdata/",
+      "src/fixtures/**/*.ts"
+    ]
   }
 }

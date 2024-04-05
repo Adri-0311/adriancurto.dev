@@ -12,16 +12,18 @@ const site = lume({
   .use(picture())
   .use(transformImages())
   .use(jsx({ extensions: [".jsx", ".tsx"] }))
-  .use(tailwindcss({
-    extensions: [".html", ".jsx"],
-    options: {
-      theme: {
-        fontFamily: {
-          sans: ["Electrolize", "Oxanium"],
+  .use(
+    tailwindcss({
+      extensions: [".html", ".jsx"],
+      options: {
+        theme: {
+          fontFamily: {
+            sans: ["Electrolize", "Oxanium"],
+          },
         },
       },
-    },
-  }))
+    }),
+  )
   .use(postcss())
   .copy("static");
 
