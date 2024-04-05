@@ -4,32 +4,33 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  body {
-    @apply bg-neutral-800 text-lg text-slate-300;
-  }
+@layer base {
+	body {
+		@apply bg-neutral-800 text-lg text-slate-300;
+	}
 
-  /* .content {
+	/* .content {
     @apply max-w-4xl my-6 mx-auto;
   } */
 
-  h1 {
-    @apply font-semibold tracking-tight text-5xl mb-8;
-  }
+	h1 {
+		@apply font-semibold tracking-tight text-5xl mb-8;
+	}
 
-  h2 {
-    @apply font-semibold tracking-tight text-4xl mb-4;
-  }
+	h2 {
+		@apply font-semibold tracking-tight text-4xl mb-4;
+	}
 
-  h3 {
-    @apply font-semibold tracking-tight text-3xl mb-4;
-  }
+	h3 {
+		@apply font-semibold tracking-tight text-3xl mb-4;
+	}
 
-  p {
-    @apply mb-5;
-  }
+	p {
+		@apply mb-5;
+	}
 
-  a {
-    @apply text-green-400 hover:text-green-500 font-medium;
-  }
+	a {
+		@apply text-green-400 hover:text-green-500 font-medium;
+	}
 }
+
