@@ -3,11 +3,17 @@
 	"linkedinUrl": "https://www.linkedin.com/in/adriancurto/",
 	"lumeLand": "https://lume.land/",
 	"denoDeploy": "https://deno.com/deploy",
-	"proyectCode": "https://github.com/Adri-0311",
+	"proyectCode": "https://github.com/Adri-0311/adriancurto.dev",
 	"system76": "https://pop.system76.com/",
 	"menu": [
-		{ "text": "Mi setup", "path": "/setup" },
-		{ "text": "Contacto", "path": "mailto:acs_0311@hotmail.com" }
+		{
+			"text": "Mi setup",
+			"path": "/setup"
+		},
+		{
+			"text": "Contacto",
+			"path": "mailto:contact@adriancurto.dev"
+		}
 	],
 	"extensionesGnome": [
 		{
@@ -40,8 +46,14 @@
 			"text": "VSCodium",
 			"path": "https://vscodium.com/"
 		},
-		"flatpak": { "text": "Flatpak", "path": "https://flatpak.org/" },
-		"insomnia": { "text": "Insomnia", "path": "https://insomnia.rest/" }
+		"flatpak": {
+			"text": "Flatpak",
+			"path": "https://flatpak.org/"
+		},
+		"insomnia": {
+			"text": "Insomnia",
+			"path": "https://insomnia.rest/"
+		}
 	},
 	"extensionesVscodium": [
 		{
@@ -182,5 +194,14 @@
 				"Jira"
 			]
 		}
+	],
+	"softSkills": [
+		"Proactivo",
+		"Independiente",
+		"Trabajo en equipo",
+		"Buena comunicación",
+		"Abierto al aprendizaje",
+		"Simpático",
+		"Empático"
 	]
 }

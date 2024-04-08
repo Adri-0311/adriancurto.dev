@@ -20,6 +20,27 @@ const site = lume({
           fontFamily: {
             sans: ["Electrolize", "Oxanium"],
           },
+          extend: {
+            keyframes: {
+              typing: {
+                "0%": { width: "0%" },
+                "100%": { width: "125px" },
+              },
+              "blink-caret": {
+                "0%, 100%": { opacity: "0" },
+                "50%": { opacity: "1" },
+              },
+              'opacity-out':{
+                "0%, 90%": { opacity: "0" },
+                "100%": { opacity: "1" }
+              }
+            },
+            animation: {
+              typing: "typing 1s steps(20, end)",
+              "blink-caret": "blink-caret 0.75s step-end infinite",
+              "opacity-out": "opacity-out 1.75s ease-out"
+            },
+          },
         },
       },
     }),

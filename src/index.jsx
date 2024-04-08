@@ -1,10 +1,18 @@
 export const title = 'Adrián Curto';
 export const layout = 'layout.jsx';
 
-export default ({ devTech, comp, jobs }) => (
+export default ({ devTech, comp, jobs, softSkills }) => (
 	<>
-		<div className='mb-8'>
-			<h1>$ whoami {title.split(' ')[0]}</h1>
+		<div className='mb-16'>
+			<div className='flex text-4xl gap-2 justify-start'>
+				<span className='text-green-500'>$</span>
+				<span className='animate-typing overflow-hidden whitespace-nowrap'>
+					whoami
+				</span>
+				<span className='animate-blink-caret border-r-[12px] border-inherit'>
+				</span>
+			</div>
+			<h1 className='animate-opacity-out'>{title.split(' ')[0]}</h1>
 
 			{
 				/* <img
@@ -65,7 +73,7 @@ export default ({ devTech, comp, jobs }) => (
 			</ul>
 		</div>
 
-		<div className='mb-8'>
+		<div className='mb-16'>
 			<h2>Experiencia laboral</h2>
 			<comp.card.jobcard job={jobs[0]} />
 		</div>
@@ -73,30 +81,13 @@ export default ({ devTech, comp, jobs }) => (
 		<div className=''>
 			<h2>Soft Skills</h2>
 			<ul className='flex flex-wrap gap-4 justify-center'>
-				<li>
-					<comp.skill.Skill>Proactivo</comp.skill.Skill>
-				</li>
-				<li>
-					<comp.skill.Skill>Independiente</comp.skill.Skill>
-				</li>
-				<li>
-					<comp.skill.Skill>Currante</comp.skill.Skill>
-				</li>
-				<li>
-					<comp.skill.Skill>Trabajo en equipo</comp.skill.Skill>
-				</li>
-				<li>
-					<comp.skill.Skill>Buena comunicación</comp.skill.Skill>
-				</li>
-				<li>
-					<comp.skill.Skill>Abierto al aprendizaje</comp.skill.Skill>
-				</li>
-				<li>
-					<comp.skill.Skill>Simpático</comp.skill.Skill>
-				</li>
-				<li>
-					<comp.skill.Skill>Empático</comp.skill.Skill>
-				</li>
+				{softSkills.map((skill) => {
+					return (
+						<li>
+							<comp.skill.Skill>{skill}</comp.skill.Skill>
+						</li>
+					);
+				})}
 			</ul>
 		</div>
 	</>
