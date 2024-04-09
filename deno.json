@@ -5,11 +5,15 @@
     "serve": "deno task lume -s"
   },
   "imports": {
-    "lume/": "https://deno.land/x/lume@v2.0.1/"
+    "lume/": "https://deno.land/x/lume@v2.1.3/"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "npm:react"
+    "jsxImportSource": "npm:react",
+    "types": [
+      "lume/types.ts",
+      "https://unpkg.com/@types/react@18.2.37/index.d.ts"
+    ]
   },
   "lint": {
     "include": [
