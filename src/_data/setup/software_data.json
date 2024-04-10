@@ -1,0 +1,16 @@
+{
+	"software": {
+		"vscodium": {
+			"text": "VSCodium",
+			"path": "https://vscodium.com/"
+		},
+		"flatpak": {
+			"text": "Flatpak",
+			"path": "https://flatpak.org/"
+		},
+		"insomnia": {
+			"text": "Insomnia",
+			"path": "https://insomnia.rest/"
+		}
+	}
+}

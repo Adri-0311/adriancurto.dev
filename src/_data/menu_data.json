@@ -1,0 +1,12 @@
+{
+  "menu": [
+		{
+			"text": "Mi setup",
+			"path": "/setup"
+		},
+		{
+			"text": "Contacto",
+			"path": "mailto:contact@adriancurto.dev"
+		}
+	]
+}

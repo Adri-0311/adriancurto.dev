@@ -1,0 +1,92 @@
+{
+	"devTech": {
+		"react": {
+			"path": "https://es.react.dev/",
+			"icon": "https://cdn.simpleicons.org/react"
+		},
+		"node": {
+			"path": "https://nodejs.org/en",
+			"icon": "https://cdn.simpleicons.org/nodedotjs"
+		},
+		"deno": {
+			"path": "https://deno.com/",
+			"icon": "https://cdn.simpleicons.org/deno"
+		},
+		"npm": {
+			"path": "https://www.npmjs.com/",
+			"icon": "https://cdn.simpleicons.org/npm"
+		},
+		"pnpm": {
+			"path": "https://pnpm.io/",
+			"icon": "https://cdn.simpleicons.org/pnpm"
+		},
+		"css": {
+			"path": "",
+			"icon": "https://cdn.simpleicons.org/css3"
+		},
+		"bootstrap": {
+			"path": "",
+			"icon": "https://cdn.simpleicons.org/bootstrap"
+		},
+		"html": {
+			"path": "",
+			"icon": "https://cdn.simpleicons.org/html5"
+		},
+		"tailwindcss": {
+			"path": "https://tailwindcss.com/",
+			"icon": "https://cdn.simpleicons.org/tailwindcss"
+		},
+		"javascript": {
+			"path": "",
+			"icon": "https://cdn.simpleicons.org/javascript"
+		},
+		"jquery": {
+			"path": "",
+			"icon": "https://cdn.simpleicons.org/jquery"
+		},
+		"typescript": {
+			"path": "https://www.typescriptlang.org/",
+			"icon": "https://cdn.simpleicons.org/typescript"
+		},
+		"git": {
+			"path": "https://www.typescriptlang.org/",
+			"icon": "https://cdn.simpleicons.org/git"
+		},
+		"github": {
+			"path": "https://www.typescriptlang.org/",
+			"icon": "https://cdn.simpleicons.org/github"
+		},
+		"gitlab": {
+			"path": "https://www.typescriptlang.org/",
+			"icon": "https://cdn.simpleicons.org/gitlab"
+		},
+		"jira": {
+			"path": "https://www.typescriptlang.org/",
+			"icon": "https://cdn.simpleicons.org/jira"
+		},
+		"jenkins": {
+			"path": "https://www.typescriptlang.org/",
+			"icon": "https://cdn.simpleicons.org/jenkins"
+		},
+		"sonarqube": {
+			"path": "https://www.typescriptlang.org/",
+			"icon": "https://cdn.simpleicons.org/sonarqube"
+		},
+		"oraclesql": {
+			"path": "https://www.typescriptlang.org/",
+			"icon": "https://cdn.simpleicons.org/oracle"
+		},
+		"java": {
+			"path": "https://www.typescriptlang.org/",
+			"icon": "https://cdn.simpleicons.org/openjdk"
+		},
+		"express": {
+			"path": "https://www.expressjs.com/",
+			"icon": "https://cdn.simpleicons.org/express"
+		},
+		"mongodb": {
+			"path": "https://www.mongodb.com/",
+			"icon": "https://cdn.simpleicons.org/mongodb"
+		}
+	}	
+}

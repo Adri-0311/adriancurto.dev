@@ -2,11 +2,7 @@ export const title = 'Mi setup';
 export const layout = 'layout.jsx';
 
 export default ({
-	system76,
-	extensionesGnome,
-	software,
-	extensionesVscodium,
-	cosmic,
+	setup,
 }) => (
 	<>
 		<h1>{title}.</h1>
@@ -15,11 +11,11 @@ export default ({
 		<p>
 			Como sitema operativo utilizo <b>Pop!_OS 22.04 LTS</b>{' '}
 			desarrollado por{' '}
-			<a href={system76}>system76</a>, el cual hace uso de un entorno de
-			escritorio{' '}
+			<a href={setup.setup_data.system76}>system76</a>, el cual hace uso
+			de un entorno de escritorio{' '}
 			<b>Gnome</b>. Aunque se encuentran desarrollando su propio
 			escritorio basado en <b>Rust</b> llamado{' '}
-			<a href={cosmic} target='_blank'>
+			<a href={setup.setup_data.cosmic} target='_blank'>
 				Cosmic
 			</a>
 			.
@@ -33,7 +29,7 @@ export default ({
 
 		<h3>Extensiones Gnome.</h3>
 		<ul role='list' className='list-inside list-disc mb-5 p-2'>
-			{extensionesGnome.map((extension, index) => {
+			{setup.setup_data.extensionesGnome.map((extension, index) => {
 				return (
 					<li key={index + extension.text}>
 						<a href={extension.path} target='_blank'>
@@ -48,32 +44,41 @@ export default ({
 		<ul role='list' className='list-inside list-disc'>
 			<li>
 				IDE{' '}
-				<a href={software.vscodium.path}>{software.vscodium.text}</a>
-				{' '}
+				<a href={setup.software_data.software.vscodium.path}>
+					{setup.software_data.software.vscodium.text}
+				</a>{' '}
 				con las siguientes extensiones:{' '}
 			</li>
 			<ul role='list' className='list-inside list-disc ml-4'>
-				{extensionesVscodium.map((extension, index) => {
-					return (
-						<li key={index + extension.text}>
-							<a href={extension.path} target='_blank'>
-								{extension.text}
-							</a>
-						</li>
-					);
-				})}
+				{setup.setup_data.extensionesVscodium.map(
+					(extension, index) => {
+						return (
+							<li key={index + extension.text}>
+								<a href={extension.path} target='_blank'>
+									{extension.text}
+								</a>
+							</li>
+						);
+					},
+				)}
 			</ul>
 			<li>Navegador: Firefox</li>
 			<li>
 				Gestor de paquetes:{' '}
-				<a href={software.flatpak.path} target='_blank'>
-					{software.flatpak.text}
+				<a
+					href={setup.software_data.software.flatpak.path}
+					target='_blank'
+				>
+					{setup.software_data.software.flatpak.text}
 				</a>
 			</li>
 			<li>
 				Herramienta para testing de APIs:{' '}
-				<a href={software.insomnia.path} target='_blank'>
-					{software.insomnia.text}
+				<a
+					href={setup.software_data.software.insomnia.path}
+					target='_blank'
+				>
+					{setup.software_data.software.insomnia.text}
 				</a>
 			</li>
 		</ul>

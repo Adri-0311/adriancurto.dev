@@ -1,7 +1,7 @@
 export const title = 'Adrián Curto';
 export const layout = 'layout.jsx';
 
-export default ({ devTech, comp, jobs, softSkills }) => (
+export default ({ comp, dev }) => (
 	<>
 		<div className='mb-16'>
 			<div className='flex text-4xl gap-2 justify-start'>
@@ -37,35 +37,35 @@ export default ({ devTech, comp, jobs, softSkills }) => (
 			<ul className='flex flex-wrap gap-4 justify-center'>
 				<li>
 					<comp.card.TechCard
-						icon={devTech.mongodb.icon}
+						icon={dev.tech_data.devTech.mongodb.icon}
 						alt='mongodb icon'
 						text='MongoDB'
 					/>
 				</li>
 				<li>
 					<comp.card.TechCard
-						icon={devTech.express.icon}
+						icon={dev.tech_data.devTech.express.icon}
 						alt='express icon'
 						text='Express'
 					/>
 				</li>
 				<li>
 					<comp.card.TechCard
-						icon={devTech.react.icon}
+						icon={dev.tech_data.devTech.react.icon}
 						alt='react icon'
 						text='React'
 					/>
 				</li>
 				<li>
 					<comp.card.TechCard
-						icon={devTech.node.icon}
+						icon={dev.tech_data.devTech.node.icon}
 						alt='nodejs icon'
 						text='Nodejs'
 					/>
 				</li>
 				<li>
 					<comp.card.TechCard
-						icon={devTech.typescript.icon}
+						icon={dev.tech_data.devTech.typescript.icon}
 						alt='typescript icon'
 						text='TypeScript'
 					/>
@@ -75,15 +75,15 @@ export default ({ devTech, comp, jobs, softSkills }) => (
 
 		<div className='mb-16'>
 			<h2>Experiencia laboral</h2>
-			<comp.card.jobcard job={jobs[0]} />
+			<comp.card.jobcard job={dev.jobs_data.jobs[0]} />
 		</div>
 
 		<div className=''>
 			<h2>Soft Skills</h2>
 			<ul className='flex flex-wrap gap-4 justify-center'>
-				{softSkills.map((skill) => {
+				{dev.soft_skills_data.softSkills.map((skill, index) => {
 					return (
-						<li>
+						<li key={index + skill}>
 							<comp.skill.Skill>{skill}</comp.skill.Skill>
 						</li>
 					);

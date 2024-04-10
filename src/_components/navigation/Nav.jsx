@@ -1,4 +1,4 @@
-export default function ({ menu, githubUrl, linkedinUrl }) {
+export default function ({ menu_data, page_links }) {
 	return (
 		<header className='md:sticky top-0 bg-gradient-to-b from-neutral-900 from-80%'>
 			<nav className='max-w-7xl mx-auto grid grid-row-3 justify-items-center gap-4  md:grid-cols-3 md:gap-0 md:justify-items-stretch place-content-center px-8 px-md-32 pt-6 pb-12 md:pb-10 w-full'>
@@ -7,7 +7,7 @@ export default function ({ menu, githubUrl, linkedinUrl }) {
 				</a>
 
 				<ul className='flex justify-center items-center gap-2'>
-					{menu.map((elemento, index) => {
+					{menu_data.menu.map((elemento, index) => {
 						return (
 							<li key={index + elemento.text}>
 								<a
@@ -23,7 +23,7 @@ export default function ({ menu, githubUrl, linkedinUrl }) {
 
 				<div className='md:justify-self-end flex items-center gap-2'>
 					<a
-						href={githubUrl}
+						href={page_links.githubUrl}
 						target='_blank'
 						aria-label='Accede a mis repositorios en GitHub'
 					>
@@ -38,7 +38,7 @@ export default function ({ menu, githubUrl, linkedinUrl }) {
 						</svg>
 					</a>
 					<a
-						href={linkedinUrl}
+						href={page_links.linkedinUrl}
 						target='_blank'
 						aria-label='Accede a mi perfil de Linkedin'
 					>

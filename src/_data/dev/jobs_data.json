@@ -1,0 +1,25 @@
+{
+  "jobs": [
+		{
+			"company": "Everis / NTT Data",
+			"position": "Full-stack",
+			"date": "2020 - 2022",
+			"content": "Mantenimiento y desarrollo de nuevas páginas, así como funcionalidades de la web comercial de <a href='https://www.iberdrola.es/' target='_blank' rel='acceso a iberdrola'>Iberdrola</a> y sus variantes en otros estados de la Unión Europea. Haciendo uso de metodología agil Kanban.",
+			"tech": [
+				"HTML",
+				"CSS",
+				"Javascript",
+				"Jquery",
+				"Bootstrap",
+				"Java",
+				"OracleSQL",
+				"Git",
+				"GitHub",
+				"GitLab",
+				"Jenkins",
+				"SonarQube",
+				"Jira"
+			]
+		}
+	]
+}
