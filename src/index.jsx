@@ -78,6 +78,24 @@ export default ({ comp, dev }) => (
 			<comp.card.jobcard job={dev.jobs_data.jobs[0]} />
 		</div>
 
+		<div className='mb-16'>
+			<h2>Certificaciones</h2>
+
+			<div className='flex justify-center'>
+				{dev.certifications_data.certs.map((cert, index) => {
+					return (
+						<comp.card.CertCard
+							key={cert.title + index}
+							title={cert.title}
+							image={cert.image}
+							alt={cert.alt}
+							url={cert.url}
+						/>
+					);
+				})}
+			</div>
+		</div>
+
 		<div className=''>
 			<h2>Soft Skills</h2>
 			<ul className='flex flex-wrap gap-4 justify-center'>

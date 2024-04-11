@@ -1,7 +1,7 @@
 export const title = '404: Página No Encontrada';
 export const layout = 'layout.jsx';
 
-export default () => (
+export default ({ comp }) => (
 	<>
 		<h2>
 			Error 404:
@@ -12,11 +12,6 @@ export default () => (
 			¿Desea volver a la página principal?
 			<br />
 		</p>
-		<a
-			href='/'
-			className='rounded bg-green-700 font-black text-2xl text-slate-200 hover:text-green-700 hover:bg-slate-200 p-2'
-		>
-			Volver a la home
-		</a>
+		<comp.ui.Button url='/'>Volver a la home</comp.ui.Button>
 	</>
 );

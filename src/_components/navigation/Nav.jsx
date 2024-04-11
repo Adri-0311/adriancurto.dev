@@ -28,7 +28,7 @@ export default function ({ menu_data, page_links }) {
 						aria-label='Accede a mis repositorios en GitHub'
 					>
 						<svg
-							className='h-6 w-6 fill-slate-300 hover:fill-green-400'
+							className='h-7 w-7 fill-slate-300 hover:fill-green-400'
 							role='img'
 							viewBox='0 0 24 24'
 							xmlns='http://www.w3.org/2000/svg'
@@ -43,7 +43,7 @@ export default function ({ menu_data, page_links }) {
 						aria-label='Accede a mi perfil de Linkedin'
 					>
 						<svg
-							className='h-6 w-6 fill-slate-300 hover:fill-green-400'
+							className='h-7 w-7 fill-slate-300 hover:fill-green-400'
 							role='img'
 							viewBox='0 0 24 24'
 							xmlns='http://www.w3.org/2000/svg'
@@ -59,7 +59,7 @@ export default function ({ menu_data, page_links }) {
 						aria-label='Descarga mi curriculum'
 					>
 						<svg
-							className='h-6 w-6 fill-slate-300 hover:fill-green-400'
+							className='h-7 w-7 fill-slate-300 hover:fill-green-400'
 							role='img'
 							xmlns='http://www.w3.org/2000/svg'
 							viewBox='0 0 45.057 45.057'

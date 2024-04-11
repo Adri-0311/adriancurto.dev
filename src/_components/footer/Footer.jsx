@@ -13,7 +13,7 @@ export default function ({ page_links }) {
 				</a>{' '}
 				y desplegado en{' '}
 				<a href={page_links.denoDeploy} target='_blank'>
-					Deno deploy
+					🚀️Deno deploy
 				</a>
 				.
 			</p>

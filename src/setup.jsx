@@ -22,9 +22,9 @@ export default ({
 		</p>
 		<img
 			className='rounded mb-6 hover:scale-150 transition-transform duration-300 ease-in'
-			src='../img/pop_os.png'
+			src='/img/pop_os.png'
 			alt='escritorio'
-			transform-images='avif webp png jpg 1080'
+			transform-images='avif webp jpg 1080@2'
 		/>
 
 		<h3>Extensiones Gnome.</h3>
