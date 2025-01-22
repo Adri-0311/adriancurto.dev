@@ -53,7 +53,7 @@ export default function ({ menu_data, page_links }) {
 						</svg>
 					</a>
 					<a
-						href='./static/Adrian_Curto_Sanchez-CV_2023.pdf'
+						href='./static/Adrian_Curto_Sanchez-CV_2025.pdf'
 						download=''
 						target='_self'
 						aria-label='Descarga mi curriculum'
