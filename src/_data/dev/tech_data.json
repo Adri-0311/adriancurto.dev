@@ -49,35 +49,35 @@
 			"icon": "https://cdn.simpleicons.org/typescript"
 		},
 		"git": {
-			"path": "https://www.typescriptlang.org/",
+			"path": "",
 			"icon": "https://cdn.simpleicons.org/git"
 		},
 		"github": {
-			"path": "https://www.typescriptlang.org/",
+			"path": "",
 			"icon": "https://cdn.simpleicons.org/github"
 		},
 		"gitlab": {
-			"path": "https://www.typescriptlang.org/",
+			"path": "",
 			"icon": "https://cdn.simpleicons.org/gitlab"
 		},
 		"jira": {
-			"path": "https://www.typescriptlang.org/",
+			"path": "",
 			"icon": "https://cdn.simpleicons.org/jira"
 		},
 		"jenkins": {
-			"path": "https://www.typescriptlang.org/",
+			"path": "",
 			"icon": "https://cdn.simpleicons.org/jenkins"
 		},
 		"sonarqube": {
-			"path": "https://www.typescriptlang.org/",
+			"path": "",
 			"icon": "https://cdn.simpleicons.org/sonarqube"
 		},
 		"oraclesql": {
-			"path": "https://www.typescriptlang.org/",
+			"path": "",
 			"icon": "https://cdn.simpleicons.org/oracle"
 		},
 		"java": {
-			"path": "https://www.typescriptlang.org/",
+			"path": "",
 			"icon": "https://cdn.simpleicons.org/openjdk"
 		},
 		"express": {
