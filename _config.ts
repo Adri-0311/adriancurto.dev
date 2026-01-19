@@ -8,7 +8,7 @@ import transformImages from 'lume/plugins/transform_images.ts';
 
 const site = lume({
 	src: './src',
-	dest: './build',
+	dest: './_site',
 })
 	.use(favicon())
 	.use(picture())
