@@ -64,6 +64,7 @@ export default function ({ menu_data, page_links }) {
 							xmlns='http://www.w3.org/2000/svg'
 							viewBox='0 0 45.057 45.057'
 						>
+							<title>CV</title>
 							<g>
 								<g id='_x35_8_24_'>
 									<g>
