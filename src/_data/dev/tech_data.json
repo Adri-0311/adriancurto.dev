@@ -22,7 +22,7 @@
 		},
 		"css": {
 			"path": "",
-			"icon": "https://cdn.simpleicons.org/css3"
+			"icon": "https://cdn.simpleicons.org/css"
 		},
 		"bootstrap": {
 			"path": "",
@@ -70,11 +70,11 @@
 		},
 		"sonarqube": {
 			"path": "",
-			"icon": "https://cdn.simpleicons.org/sonarqube"
+			"icon": "https://cdn.simpleicons.org/sonar"
 		},
 		"oraclesql": {
 			"path": "",
-			"icon": "https://cdn.simpleicons.org/oracle"
+			"icon": "/img/ico-ask-oracle-36.svg"
 		},
 		"java": {
 			"path": "",
@@ -88,5 +88,5 @@
 			"path": "https://www.mongodb.com/",
 			"icon": "https://cdn.simpleicons.org/mongodb"
 		}
-	}	
+	}
 }
