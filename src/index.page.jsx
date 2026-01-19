@@ -9,7 +9,7 @@ export default ({ comp, dev }) => (
 				<span className='animate-typing overflow-hidden whitespace-nowrap'>
 					whoami
 				</span>
-				<span className='animate-blink-caret border-r-[12px] border-inherit'>
+				<span className='animate-blink-caret border-r-16 border-inherit'>
 				</span>
 			</div>
 			<h1 className='animate-opacity-out'>{title.split(' ')[0]}</h1>

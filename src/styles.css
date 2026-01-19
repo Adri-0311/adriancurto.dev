@@ -1,9 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Oxanium&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
+@theme {
+
+	--font-sans: "Electrolize", "Oxanium";
+
+	--animate-typing: typing-effect 1s steps(20, end);
+	--animate-blink-caret: blink-caret 1s step-end infinite;
+	--animate-opacity-out: opacity-out 1.75s ease-out;
+
+	@keyframes typing-effect {
+		0% {
+			width: 0px;
+		}
+		100% {
+			width: 125px;
+		}
+	}
+
+	@keyframes blink-caret {
+		0%,
+		100% {
+			opacity: 0;
+		}
+		50% {
+			opacity: 1;
+		}
+	}
+
+	@keyframes opacity-out {
+		0%,
+		90% {
+			opacity: 0;
+		}
+		,
+		100% {
+			opacity: 1;
+		}
+	}
+}
+
+/* font-family: 'Electrolize', 'Oxanium'; */
 @layer base {
 	body {
 		@apply bg-neutral-800 text-lg text-slate-300;
@@ -33,4 +71,3 @@
 		@apply text-green-400 hover:text-green-500 font-medium;
 	}
 }
-
