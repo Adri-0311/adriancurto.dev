@@ -16,7 +16,7 @@ export default function ({ comp, job, dev }) {
 				<hr />
 				<ul className='flex justify-center flex-wrap gap-4 mt-6'>
 					{job.tech.map((tech, index) => {
-						const techLowCase = tech.toLowerCase();
+						const techLowCase = tech.replace(' ', '').toLowerCase();
 						return (
 							<li key={index + techLowCase}>
 								<comp.card.TechCard

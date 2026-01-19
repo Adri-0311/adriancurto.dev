@@ -1,15 +1,18 @@
 export default ({ title, children, comp }) => (
 	<html lang='es'>
 		<head>
-			<meta httpEquiv='Content-Type' content='text/html;charset=UTF-8' />
+			<meta httpEquiv='Content-Type' content='text/html; charset=UTF-8' />
 			<meta
 				name='viewport'
 				content='width=device-width, initial-scale=1.0'
 			/>
 			<meta name='author' content='Adrián Curto Sánchez' />
-			<meta name='description' content='Web personal de Adrián Curto.' />
+			<meta
+				name='description'
+				content='Web personal de Adrián Curto Sánchez'
+			/>
 			<title>{title}</title>
-			<link rel='stylesheet' href='../styles.css'></link>
+			<link rel='stylesheet' type='text/css' href='/styles.css'></link>
 		</head>
 		<body>
 			<comp.navigation.Nav />

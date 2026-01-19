@@ -1,6 +1,6 @@
 export default function ({ menu_data, page_links }) {
 	return (
-		<header className='md:sticky top-0 bg-gradient-to-b from-neutral-900 from-80%'>
+		<header className='md:sticky top-0 bg-gradient-to-b from-neutral-900 from-80% z-10'>
 			<nav className='max-w-7xl mx-auto grid grid-row-3 justify-items-center gap-4  md:grid-cols-3 md:gap-0 md:justify-items-stretch place-content-center px-8 px-md-32 pt-6 pb-12 md:pb-10 w-full'>
 				<a className='text-green-500 text-4xl font-bold' href='/'>
 					Adrián Curto
