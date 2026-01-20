@@ -90,5 +90,9 @@
     "temporal",
     "fmt-component"
   ],
-  "lock": false
+  "lock": false,
+  "deploy": {
+    "org": "adri-0311",
+    "app": "adriancurtodev"
+  }
 }
